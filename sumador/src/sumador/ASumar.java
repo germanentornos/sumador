@@ -26,6 +26,9 @@ public class ASumar {
         if (numero.length() == 1) {
         return (numero + " = " + numero);
         }
+        else if(Integer.parseInt(numero) < 0) {
+        	return "";
+        }
         return numero;
 	}
 
