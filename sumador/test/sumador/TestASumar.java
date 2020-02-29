@@ -22,6 +22,11 @@ class TestASumar {
     }
 	
 	
-
+	@Test
+    public void testMasUnaCifra() {
+        ASumar sumi = new ASumar("1234");
+        String resultado = sumi.mostrar();
+        assertEquals("1 + 2 + 3 + 4 = 10",resultado);
+    }
 
 }
