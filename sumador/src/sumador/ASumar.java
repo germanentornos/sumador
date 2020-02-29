@@ -29,11 +29,8 @@ public class ASumar {
         else if(Integer.parseInt(numero) < 0) {
         	return "";
         }
-  
-        String sumas = sumas();
-        String total = String.valueOf(total());
         
-        return sumas + "= " + total;
+        return numero;
 	}
 
 	
