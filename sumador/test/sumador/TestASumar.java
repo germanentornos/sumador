@@ -10,7 +10,7 @@ class TestASumar {
     public void testUnaCifra() {
         ASumar sumi = new ASumar("5");
         String resultado = sumi.mostrar();
-        assertEquals("5 = 5",resultado );
+        assertEquals("5 = 5",resultado);
     }
 	
 	
@@ -18,7 +18,10 @@ class TestASumar {
     public void testNegativos() {
         ASumar sumi = new ASumar("-5");
         String resultado = sumi.mostrar();
-        assertEquals("",resultado );
+        assertEquals("",resultado);
     }
+	
+	
+
 
 }
