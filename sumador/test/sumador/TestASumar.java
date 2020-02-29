@@ -29,4 +29,4 @@ class TestASumar {
         assertEquals("1 + 2 + 3 + 4 = 10",resultado);
     }
 
-}
+} 
